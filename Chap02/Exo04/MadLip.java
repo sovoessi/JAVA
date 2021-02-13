@@ -21,7 +21,7 @@ public class MadLip {
 
         System.out.print(
             String.format(
-            "Do you %s your %s %s %s? That's hilarious!", noun, verb, adjective, adverb
+            "Do you %s your %s %s %s? That's hilarious!", verb, adjective, noun, adverb
             )
         );
 
