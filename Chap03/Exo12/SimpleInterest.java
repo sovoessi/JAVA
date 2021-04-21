@@ -17,7 +17,7 @@ class SimpleInterest {
         numOfYears = sc.nextInt();
 
         investment = principal * (1 + rateOfInterest/100 *numOfYears);
-        investment = Math.round(investment * 10) /100f;
+        investment = Math.round(investment * 100) /100f;
 
         System.out.print("After " +numOfYears+ " years at " +
             rateOfInterest+"%, the investment will be worth $"+ investment);    

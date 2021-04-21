@@ -22,7 +22,6 @@ class CurrencyConv {
         amount_to = amount_from * exchange_rate / 100;
 
         df.setRoundingMode(RoundingMode.DOWN);
-        // System.out.println(df.format(amount_to).getClass());
 
         System.out.println(amount_from + 
             " euros at an exchange rate of " +exchange_rate+ 
